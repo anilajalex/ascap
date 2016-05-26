@@ -16,7 +16,7 @@ d3.csv('data/artists.csv', function (error, data) {
         data[j].y = Math.random() * height;
       }
 
-      var padding = 2;
+      var padding = 1;
       var maxRadius = d3.max(_.pluck(data, 'radius'));
 
       var getCenters = function (vname, size) {
@@ -134,3 +134,4 @@ d3.csv('data/artists.csv', function (error, data) {
         };
       }
 }); // ends d3.csv for bubble chart
+
