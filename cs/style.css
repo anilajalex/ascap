@@ -95,3 +95,35 @@ li {
 a {
 	color: black;
 }
+
+/*DONUT CHART*/
+
+.arc text {
+  font: 10px arial;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.arc:hover {
+  fill: white;
+  transform: scale(1.1);
+  stroke-width: 0px;
+}
+
+
+
+#donutChart {
+  float: left;
+  border-top: 1px solid #f6f6f6;
+  border-right: 1px solid #f6f6f6;
+}
+
+#bar {
+  float: left;
+  border-top: 1px solid #f6f6f6;
+}
+}
+
